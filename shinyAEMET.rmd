@@ -1,0 +1,20 @@
+---
+title: "shinyAEMET"
+author: "Alejandro González"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(climaaemet)
+library(shiny)
+```
+```{r}
+api<-"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhLmdvbnphbGV6LmZkZXpAZ21haWwuY29tIiwianRpIjoiZDdmNWFkYjQtMjhhNy00MGFiLWFhOGMtMDgxMWJlOWFkNDhkIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE2MTQyNTI0OTIsInVzZXJJZCI6ImQ3ZjVhZGI0LTI4YTctNDBhYi1hYThjLTA4MTFiZTlhZDQ4ZCIsInJvbGUiOiIifQ.WPcuUPGX6P7ssfRBa858Sr30huPHp-Qfez839ihr8ZA"
+```
+
